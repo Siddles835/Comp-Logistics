@@ -36,6 +36,7 @@ distributors_data = load_file("distributors")
 requirements_data = load_file("requirements")
 shipping_data = load_file("shipping")
 distances_data = load_file("distance")
+discounts_data = load_file("discounts")
 
 suppliers = ["Pacific Alloys", "Midwest Makers", "Eastern Metal"]
 plants = plants_data["Manufacturing Plant"].tolist()
